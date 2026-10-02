@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(53, 50, 47);
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(122, 115, 108);
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+
+}
+h1{
+    text-align: center;
+}
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(97, 82, 88);
+    color: rgb(40, 37, 43);
+    border: none;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
